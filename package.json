@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Vodoprovod/course/issues"
   },
-  "homepage": "https://github.com/Vodoprovod/course#readme"
+  "homepage": "https://github.com/Vodoprovod/course#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6"
+  }
 }
