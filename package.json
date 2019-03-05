@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/Vodoprovod/course#readme",
   "devDependencies": {
-    "webpack": "^4.29.6"
+    "eslint": "^5.15.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
